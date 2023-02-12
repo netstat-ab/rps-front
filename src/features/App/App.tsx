@@ -1,8 +1,18 @@
-import './App.css';
+// import './App.css';
+import { Typography } from '@mui/material';
+import { styled } from '@mui/material/styles'
+
+
+const Container = styled('div')({
+  textAlign: 'center',
+})
 
 function App() {
   return (
-    <div className="App">Rock Paper Scissors</div>
+    <Container>
+      <Typography variant='h1'>Rock Paper Scissors</Typography>
+      <Typography variant='h2'>Incredible game:^)</Typography>
+    </Container>
   );
 }
 
